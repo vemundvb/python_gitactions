@@ -7,9 +7,6 @@ on:
   push:
 
 
-permissions:
-  contents: read
-
 jobs:
   build:
 
@@ -27,4 +24,4 @@ jobs:
         pip install pytest
         pip install -r requirements.txt
     - name: Test with pytest
-      run: pytest
+      run: pytest -m pytest
