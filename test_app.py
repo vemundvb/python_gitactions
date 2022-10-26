@@ -11,7 +11,7 @@ class TestIsTwo(unittest.TestCase):
 class TestIsNotTwo(unittest.TestCase):
     def test_two_is_two(self):
         result = Two(3)
-        assert result.number != 3
+        assert result.number != 2
 
 
 
