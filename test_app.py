@@ -15,4 +15,3 @@ class TestIsNotTwo(unittest.TestCase):
 
 
 
-unittest.main()
